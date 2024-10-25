@@ -13,6 +13,20 @@ public class Citerne {
         return carburant;
     }
 
+    
+
+    public int getNiveauAlerte() {
+        return niveauAlerte;
+    }
+
+    public int getNiveauMin() {
+        return niveauMin;
+    }
+
+    public int getNiveauActuel() {
+        return niveauActuel;
+    }
+
     public int setNiveauActuel(int niveauActuel) {
         this.niveauActuel = niveauActuel;
         return niveauActuel;

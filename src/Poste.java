@@ -20,6 +20,10 @@ public class Poste {
         return numPoste;
     }
 
+    public Carburant getCarburant() {
+        return carburant;
+    }
+
     @Override
     public String toString() {
         return "Poste{" +

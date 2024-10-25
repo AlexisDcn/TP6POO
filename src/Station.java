@@ -34,6 +34,19 @@ public class Station {
             prixCarburants.put(Carburant.SP95, prixSP95);   
             prixCarburants.put(Carburant.SP98, prixSP98);
             achats.clear();
+
+            for (Poste poste : postes) {
+                if (poste instanceof PosteManuel) {
+                    ((PosteManuel) poste).ouvrir();
+                }
+            }
+
     }
+
+    public void fermer() {
+        this.ouvert = false;
+    }
+
+    
 
 }

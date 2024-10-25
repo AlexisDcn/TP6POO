@@ -17,5 +17,16 @@ class Main {
       // System.out.println(citerne1);
 
       Station station = new Station();
+
+      station.ajouterPoste(new PosteAuto(1));
+      station.ajouterPoste(new PosteManuel(2));
+      station.ajouterPoste(new PosteManuel(3));
+      station.ajouterPoste(new PosteManuel(4));
+
+      station.ajouterCiterne(new Citerne(Carburant.Gazole,0));
+      station.ajouterCiterne(new Citerne(Carburant.SP95,0));
+      station.ajouterCiterne(new Citerne(Carburant.SP98,0));
+
+      System.out.println(station);
     }
   }
