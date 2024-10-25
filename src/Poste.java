@@ -24,9 +24,9 @@ public class Poste {
     public String toString() {
         return "Poste{" +
                 "numPoste=" + numPoste +
-                ", carburant=" + carburant +
-                ", quantiteCarburantServie=" + quantiteCarburantServie +
-                ", prixAuLitre=" + prixAuLitre +
+                ", carburant=" + carburant +"\n"+
+                ", quantiteCarburantServie=" + quantiteCarburantServie +"\n"+
+                ", prixAuLitre=" + prixAuLitre +"\n"+
                 ", prixTotal=" + prixTotal +
                 '}';
     }

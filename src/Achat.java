@@ -21,9 +21,9 @@ public class Achat {
     public String toString() {
         return "Achat : " + date + 
                " Poste : " + posteUtilise + 
-               " Carburant : " + carburant +
-               " quantite de carburant : " + quantiteCarburantServie + 
-               " prix au litre : " + prixAuLitre + 
+               " Carburant : " + carburant +"\n"+
+               " quantite de carburant : " + quantiteCarburantServie + "\n"+
+               " prix au litre : " + prixAuLitre + "\n"+
                " prix total : " + prixPaye + " euros";
     }
 }
